@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "@types/node": "^12.7.12"
+  },
   "devDependencies": {
-    "fuse-box": "^3.7.1",
-    "terser": "^4.1.4",
-    "typescript": "^3.5.3",
-    "uglify-js": "^3.6.0"
+    "typescript": "^3.5.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
