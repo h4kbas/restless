@@ -1,3 +1,11 @@
+# Restless  Yet Another API Client for Rest APIs in Vanilla TS
+
+Restless aims to create an object-like illusion for Rest-APIs.
+
+## An example application for all possible use cases:
+
+```javascript
+
 import { Restless} from "./Restless";
 
 document.addEventListener("DOMContentLoaded", async () => {
@@ -15,3 +23,5 @@ document.addEventListener("DOMContentLoaded", async () => {
   Posts.update(1, {title: "Hello World"});
 
 });
+
+```
