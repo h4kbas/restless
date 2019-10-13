@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   
   // Source URL generation
   const Posts = Source.posts.$dup();
-  Posts.update(1, {title: "Hello World"});
+  Posts.update.$post(1, {title: "Hello World"});
 
 });
 
